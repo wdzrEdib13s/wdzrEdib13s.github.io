@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/5735c2a62e.js" crossorigin="anonymous"></script>
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="shortcut icon" href="images/LOGOS_WZRD-18.png">
+	<title></title>
+</head>
+<body>
+	
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="index.html"><img src="images/LOGOS_WZRD-18.png" width="80px"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#GET">¿CÓMO FUNCIONA?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#SHOP">COMPRAR</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="prductos.html">PRODUCTOS</a>
+        </li>
+       
+      </ul>
+      <form class="d-flex">
+       <a href="#carro"><i class="fa fa-shopping-cart  icocno"></i></a>
+        <a  href="https://www.instagram.com/librewdzrd.off/" class="navbar-brand"> <i class="fab fa-instagram" style="font-size:2rem;"></i></a> 
+      </form>
+    </div>
+  </div>
+</nav>
+
+<video poster="./images/portada1.png" class="video-fluid z-depth-1" autoplay loop  muted>
+  <source src="images/Slide.mp4" type="video/mp4" />
+</video>
+
+
+
+<section>
+  <div id="GET" class="topToget">
+   <div class="algo  " id="formaParte">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12 col-md-6 foto2 Responsive image d-none d-sm-none d-md-block">
+               <img src="images/LOGOS_WZRD-21.png" width="100%" class="img-fluid">
+
+            </div>
+            <div class="col-lg-6 col-12 col-md-6 foto ">
+                <div class="justify-content-center formCem">
+                <div class="tamañotexto">
+                  <h2>¿CÓMO CONSIGO WDZRD? </h2>
+                    <ol class="pasos">
+                      <li class="pasosTex">Conócenos y a nuestros productos en <a href="https://www.instagram.com/librewdzrd.off ">@librewdzrd.off</a> </li>
+                      <li class="pasosTex">Luego puedes hacer tu pedido en este menú digital o ir directo a <a href="https://wa.me/525519158885 ">WhatsApp</a> </li>
+                      <li class="pasosTex">Haz el pago por Paypal o pregunta por las demás opciones de pago</li>
+                      <li class="pasosTex">Recibe tu pedido en casa ese día o agendalo para luego </li>
+                      <br>
+                      <h5 class="pasos2">ENTREGAS GRATIS EN LA MAYORÍA DE TUS PEDIDOS (CDMX)*</h5>
+                      
+                    </ol>
+                </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+</section>
+
+
+<section class="contenedor" id="SHOP">
+	<div class="container">
+  <br>
+      <h2 class="TitulosSeciones">NUESTROS PRODUCTOS </h2>
+      <br>
+    <div class="row">
+        <!-- Elementos generados a partir del JSON -->
+        <main id="items" class="col-sm-12 row">
+
+        </main>
+        <!-- Carrito -->
+
+    </div>
+</div>
+</section>
+
+
+
+
+<section id="carro">
+  <div class="container">
+    <div class="row">
+           <aside class="col-sm-12">
+            <h2 class="TitulosSeciones">CARRITO</h2>
+            <!-- Elementos del carrito -->
+            <ul id="carrito" class="list-group compras"></ul>
+            <hr>
+            <!-- Precio total -->
+            <p class="text-right totalCompra">Total: $ <span id="total" class="totalCompra"></span></p>
+            <button id="boton-vaciar" class="btn btn-danger btn-morado">Borrar</button><br><br>
+            <button id="send-whatsapp" class="btn btn-danger btn-whats" onclick="enviarWhats()"><i class="fab fa-whatsapp"></i> Comprar!</button>
+        </aside>
+     </div>
+  </div>
+</section>
+
+<div class="gallery">
+  <span><img width="300px" height="300px" src="images/testimonios/seis.png" /></span>
+  <span><img width="300px" height="300px" src="images/testimonios/siete.png" /></span>
+  <span><img width="300px" height="300px" src="images/testimonios/tres.png" /></span>
+  <span><img width="300px" height="300px" src="images/testimonios/cuatro.png" /></span>
+  <span><img width="300px" height="300px" src="images/testimonios/cinco.png" /></span>
+   <span><img width="300px" height="300px" src="images/testimonios/ocho.png" /></span>
+</div>
+
+
+
+  <div class="rosa">
+    <div class="container">
+      <div  class="row">
+         <span class="morado"> ADVERTENCIA SOBRE LOS PRODUCTOS:
+          <p class="blanco"> Evita el ayuno si vas a consumir WDZRD y espera al menos 60 minutos entre cada ingesta. Bajo ninguna circunstancia dejes los productos al alcance de niños. 
+        </p>
+        </span>
+      </div>
+    </div>
+  </div>
+ <footer>
+    <div class="container">
+      <div class="row">
+    
+      </div>
+      <br>
+    
+      <div class="text-center texto textcenter">
+
+        <img src="images/music.png">
+        <h2 class="tituloblanco">Let’s listen cool tunes</h2>
+        <div class="Spotify__embed">
+  <iframe src="https://open.spotify.com/embed/playlist/2rQm6y2xAbjaXsFNpDL7jx" width="300" height="80"></iframe>
+</div>
+
+<!--        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-youtube-square"></i>
+        <i class="fab fa-instagram-square"></i> -->
+<!-- 
+         
+            <ul class="social-icons list-group list-group-horizontal justify-content-center">
+              <a class="facebook" href="https://www.facebook.com/SoyMiCochinito"><i class="fa fa-facebook  "></i></a>
+              <a class="twitter" href="https://www.instagram.com/mi_cochinito/"><i class="fab fa-instagram-square "></i></a>
+              <a class="dribbble" href="https://www.micochinito.com"><i class="fa fa-dribbble "></i></a>
+              <a class="linkedin" href="https://mx.linkedin.com/company/gens-creando-posibilidades-sc"><i class="fa fa-linkedin "></i></a>
+            </ul>
+       -->
+        <h5 class="tituloblanco">Un playlist para compartir y disfrutar nuestros productos</h5>
+
+     <!--  <a href="Privacy.html">Privacy Policy</a> -->
+     <img src="images/Logo WEB PNG_rosa.png" width="30%" height="auto">
+     <br>
+     
+     <a class="tituloblanco" href="aviso.html">Privacy Policy</a>
+     <br>
+     <br>
+      </div>
+    </div>
+
+  </footer>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script src="./js/01.js"></script>
+<script src="./js/02.js"></script>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>

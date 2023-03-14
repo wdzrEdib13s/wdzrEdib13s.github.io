@@ -23,11 +23,11 @@ let baseDeDatos = [
 	{
 		id: 3,
 		nombre: 'TINCTURE',
-		texto: 'Nuestra tintura es de espectro completo, obtenida de un proceso de maceración con una descarboxilación previa para la correcta activación de canabinoides. ¿Cómo la uso? Te sugerimos agregar algunas gotas en una bebida caliente. Para nuevos usuarios sugerimos comenzar con 2 a 4 gotas, está medicamente probado que el uso de tintura reduce síntomas como la ansiedad y el insomnio.',
-		precio: 580,
-		gr:'Gotero 30 ml (600 gotas aprox)',
+		texto: 'Es el resultado de la maceración de nuestra selección de flores, adecuadamente descarboxiladas para la activación de los cannabinoides. Perfecta para colocarla en tu bebida preferida. Ayuda en la reducción de síntomas como la ansiedad, en insomnio y otras afecciones sin efectos psicoactivos utilizándola en microdosis. (Conservar bien cerrada en un lugar fresco y seco)',
+		precio: 800,
+		gr:'30ml-600drops',
 		imagen: 'images/Tincture.png',
-		mg: '480 mgTHC/32 mgCBD'
+		mg: '550mgTHC/32mgCBD '
 	},
 	{
 		id: 4,

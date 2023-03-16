@@ -2,17 +2,17 @@ let baseDeDatos = [
 	{
 		id: 1,
 		nombre: 'GUMMIES (Fresa-Mango con chile)',
-		texto: 'Las gomitas están preparadas con nuestra tintura, cada pieza de 5g contiene una mezcla de sabor fresa-mango y están espolvoreadas con chilito agridulce. Te aseguramos que te darán una experiencia y un sabor inigualable. Si eres nuevo, te recomendamos iniciar con media pieza en tu primera prueba. ',
-		precio: 480, 
-		gr:'Bolsa con 9 piezas',
+		texto: 'Una explosión para tu paladar. En su presentación Fresa-Mango, bañadas en chile chamoy que han encantado a tantos.	Con una base de RSO obtenido por la reducción concentrada de nuestra tintura, te harán tener una experiencia tan reconfortante cómo su sabor. (conservar en refrigeración)',
+		precio: 600, 
+		gr:'9pz',
 		imagen: 'images/gummies.png',
-		mg: '250 mgTHC'
+		mg: '250mgTHC (27.7each)'
 	},
 	{
 		id: 2,
 		nombre: 'BITES (Chocolate)',
-		texto: 'Nuestros bites de cereal están preparados con nuestra mantequilla clarificada e infusionada, se cocinan con bombón y se sirven; las piezas son de alrededor de 10g y pueden pedirse en dos sabores diferentes; chocolate y tuttifrutti, al confirmar tu orden dinos qué sabor prefieres. Si eres un nuevo consumidor te recomendamos comer solo una pieza. ',
-		precio: 430,
+		texto: 'Preparandos a base de nuestra base casera de Ghee (mantequilla clarificada) inficionado con nuestra selección de flores. Una deliciosa mezcla de cereal y malvavisco que logra la consistencia perfecta que te enamora con casa mordida.(Mantener en un lugar seco y fresco, para mayor conservación mantener en refrigeración)',
+		precio: 420,
 		descuento: '$480',
 		gr:'Bolsa de 70 g',
 		imagen: 'images/bitechocolate.png',
@@ -32,11 +32,12 @@ let baseDeDatos = [
 	{
 		id: 4,
 		nombre: 'BITES (TuttiFrutti)',
-		texto: 'Nuestros bites de cereal están preparados con nuestra mantequilla clarificada e infusionada, se cocinan con bombón y se sirven; las piezas son de alrededor de 10g y pueden pedirse en dos sabores diferentes; chocolate y tuttifrutti, al confirmar tu orden dinos qué sabor prefieres. Si eres un nuevo consumidor te recomendamos comer solo una pieza. ',
-		precio: 430,
-		gr:'Bolsa de 70 g',
+		texto: 'Preparandos a base de nuestra base casera de Ghee (mantequilla clarificada) inficionado con nuestra selección de flores. Una deliciosa mezcla de cereal y malvavisco que logra la consistencia perfecta que te enamora con casa mordida.(Mantener en un lugar seco y fresco, para mayor conservación mantener en refrigeración)',
+		precio: 420,
+		descuento: '$480',
+		gr:'6-8pz/70g ',
 		imagen: 'images/bites.png',
-		mg: '150 mgTHC'
+		mg: '150 mgTHC150mgTHC(18.7-25mgTHCeach)'
 
 	}
 

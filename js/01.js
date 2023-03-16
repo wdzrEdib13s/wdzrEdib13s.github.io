@@ -39,6 +39,17 @@ let baseDeDatos = [
 		imagen: 'images/bites.png',
 		mg: '150 mgTHC150mgTHC(18.7-25mgTHCeach)'
 
+	},
+	{
+		id: 5,
+		nombre: 'POCKET WAFFLES ',
+		texto: 'Nuevo lanzamiento. Echos a base de nuestro Ghee infusionado e ingredientes de la mejor calidad. Solo calienta tus waffles en tu tostadora, sartén o microondas y prepáralos cómo mas te gusten. Explora con todas las posibilidades de tus toppings favoritos y disfruta.(Conservar en congelación)',
+		precio: 420,
+		// descuento: '$480',
+		gr:' 2pz ',
+		imagen: 'images/bites.png',
+		mg: ' 150mgTHC(75mgTHCeach)'
+
 	}
 
 ];

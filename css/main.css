@@ -264,7 +264,12 @@ background-color: #45035e !important;
 /*.pasosTex{
   padding: 2%;
 }*/
-
+.equipo2{
+  margin-bottom: 15%;
+  background-color: #f7f7f7;
+  width: 100%;
+  height: auto;
+}
 
 .equipo{
   /*margin-top: 15%;*/
@@ -274,20 +279,19 @@ background-color: #45035e !important;
 }
 
 .Titulo-Gris-equipo{
-  font-family: 'Quicksand', sans-serif; 
+  font-family: 'Josefin Sans', sans-serif;
   color: #575756;     
   font-size: 40px;
-  padding:14% 14% 2% 15%;
+  padding:8% 4% 2% 7%;
   
 }
 
 
 .shotviw{
-  font-family: 'Quicksand', sans-serif;
-  padding:5%;
+  font-family: 'Josefin Sans', sans-serif;
   color: #575756;
   font-size:16px;
-  padding:5% 10% 2% 15%;
+  padding:3% 5% 2% 8%;
 }
 .redes{
   padding:5% 10% 2% 15%;

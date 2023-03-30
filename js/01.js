@@ -5,7 +5,7 @@ let baseDeDatos = [
 		texto: 'Una explosión para tu paladar. En su presentación Fresa-Mango, bañadas en chile chamoy que han encantado a tantos.	Con una base de RSO obtenido por la reducción concentrada de nuestra tintura, te harán tener una experiencia tan reconfortante cómo su sabor. (conservar en refrigeración)',
 		precio: 600, 
 		gr:'9pz',
-		imagen: 'images/gummies.png',
+		imagen: 'images/gomasyplatosinlogo.jpg',
 		mg: '250mgTHC (27.7each)'
 	},
 	{
@@ -15,7 +15,7 @@ let baseDeDatos = [
 		precio: 420,
 		descuento: '$480',
 		gr:'Bolsa de 70 g',
-		imagen: 'images/bitechocolate.png',
+		imagen: 'images/bitechocolatesinlogo.jpeg',
 			// Oferta:'SALE'
 		mg: '150 mgTHC'
 	
@@ -26,7 +26,7 @@ let baseDeDatos = [
 		texto: 'Es el resultado de la maceración de nuestra selección de flores, adecuadamente descarboxiladas para la activación de los cannabinoides. Perfecta para colocarla en tu bebida preferida. Ayuda en la reducción de síntomas como la ansiedad, en insomnio y otras afecciones sin efectos psicoactivos utilizándola en microdosis. (Conservar bien cerrada en un lugar fresco y seco)',
 		precio: 800,
 		gr:'30ml-600drops',
-		imagen: 'images/Tincture.png',
+		imagen: 'images/goterosinlogomora.jpg',
 		mg: '550mgTHC/32mgCBD '
 	},
 	{
@@ -36,7 +36,7 @@ let baseDeDatos = [
 		precio: 420,
 		descuento: '$480',
 		gr:'6-8pz/70g ',
-		imagen: 'images/bites.png',
+		imagen: 'images/BITE.jpg',
 		mg: '150 mgTHC150mgTHC(18.7-25mgTHCeach)'
 
 	},

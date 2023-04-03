@@ -47,7 +47,7 @@ let baseDeDatos = [
 		precio: 420,
 		// descuento: '$480',
 		gr:' 2pz ',
-		imagen: 'images/bites.png',
+		imagen: 'images/waffle1.jpg',
 		mg: ' 150mgTHC(75mgTHCeach)'
 
 	}
